@@ -1,0 +1,35 @@
+# Build outputs
+bin/
+build/
+build_win/
+cmake-build-debug/
+out/
+trt_cache/
+
+# Third-party SDKs (install locally)
+onnx/
+
+# IDE
+.idea/
+.vs/
+*.user
+
+# Compiled objects
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.lib
+*.exp
+*.cu.obj
+
+# CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# OS
+Thumbs.db
+Desktop.ini
